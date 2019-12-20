@@ -49,7 +49,7 @@ figlet("Hello Yatish bro", function(err, data) {
     const color = randomColors[randomNum];
     term[color](letter);
     count++;
-  }, 180);
+  }, 160);
 });
 
 const randomColors = ["red", "green", "blue", "magenta"];
