@@ -1,6 +1,20 @@
 #! /usr/bin/env node
 const figlet = require("figlet");
-const lines = `=＾● ⋏ ●＾=\nI know you do a lot of React\nThough, it's not enough to define you yet\nI remember the time when we met\nThings have changed a lot since then\nI wish the hook of our friendship never falls apart\nThis is from your secret dost\nThanks for being there when I needed most\nTo our valuable asset,\nYatish Dhanani ( ^..^)ﾉ\nโ๏∀๏ใ‎โ๏∀๏ใ\n‎`;
+const lines = `
+=＾● ⋏ ●＾=\n
+I know you do a lot of React (o ^▽^ o)\n
+Though, it's not enough to define you yet Σ(O_O)\n
+I remember the time when we met\n
+Things have changed a lot since then\n
+I wish the hook of our friendship never falls apart (o˘◡˘o)\n
+This is from your secret dost ＼(＾∀＾)メ(＾∀＾)ノ\n
+Thanks for being there when I needed you most (＾▽＾)\n
+To our valuable asset,\nYatish Dhanani (=^ ◡ ^=) ﾉ\n
+=＾● ⋏ ●＾=\n‎
+to be continued... (^_<)\n
+(⊙_⊙) crashes gracefully...\n
+`;
+
 var term = require("terminal-kit").terminal;
 
 figlet("Hello Yatish bro", function(err, data) {
@@ -21,7 +35,7 @@ figlet("Hello Yatish bro", function(err, data) {
     const color = randomColors[randomNum];
     term[color](letter);
     count++;
-  }, 150);
+  }, 180);
 });
 
 const randomColors = ["red", "green", "blue", "magenta"];
