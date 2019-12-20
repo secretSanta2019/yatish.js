@@ -2,5 +2,5 @@
 
 ```
 npm install yatish.js
-yatish.js
+yatish
 ```
